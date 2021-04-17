@@ -3,12 +3,10 @@ version: "2.0"
 
 services:
   web:
-    image: tombeynon/akash-hello-world:release-v0.1.1
+    image: seagull202020/akash-hello-word
     expose:
       - port: 80
         as: 80
-        accept:
-          - akashhw.tombeynon.co.uk
         to:
           - global: true
 
